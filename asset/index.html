@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REIGN</title>
+    <!-- css custom link  -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <!-- NAVBAR BRAND -->
+            <a class=" navbar-brand" href="#">REIGN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <!-- MENU ITEMS  -->
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <!-- home dropdown  -->
+                    <li class="nav-item">
+                        <a class="nav-link active  me-4" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  me-4" aria-current="page" href="#about">ABOUT</a>
+                    </li>
+                    <!-- page dropdown  -->
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PLACE</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#service">Service</a></li>
+                            <li><a class="dropdown-item" href="#form">Form</a></li>
+                        </ul>
+                    </li>
+                    <!-- coontact dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link active  me-4" aria-current="page" href="#footer">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar and home page  -->
+    <div class="container"></div>
+    <div class="imgContainer" id="home">
+        <div class="imgDiv">
+            <div class="content d-flex flex-column justify-content-center h-100 text-center">
+                <h1 class="text-center">INRODUCING REIGN</h1>
+                <h6 class="text-center mt-2">ONE & MULTI PAGE MULTIPURPOSE TEMPLATE</h6>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- about page -->
+    <div class="container">
+        <div class="aboutPage">
+            <h2 class="text-center mt-5" id="about">ABOUT</h2>
+            <div class="mainContent d-flex justify-content-center align-items-center">
+
+                <div class="leftContet">
+                    <h3>heading 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, animi nam! Ab quo eum vel non nulla laudantium doloremque, molestias quisquam corporis quae optio itaque officia amet, reiciendis adipisci. Modi.</p>
+                </div>
+                <div class="rightcontent">
+                    <div class="imgManiContant">
+                        <img src="./asset/beach.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service  -->
+    <div class="container-fluid">
+        <div class="service" id="service">
+            <div class="container">
+
+                <h2 class="text-center mt-2">SERVICE</h2>
+                <div class="serviceBox">
+                    <div class="box">
+                        <img src="./asset/beach.jpg" alt="">
+                    </div>
+                    <div class="box"><img src="./asset/download (1).jpg" alt=""></div>
+                    <div class="box"><img src="./asset/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-blue-sky-background.jpg" alt=""></div>
+                    <div class="box"><img src="./asset/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-blue-sky-background.jpg" alt=""></div>
+                    <div class="box"><img src="./asset/download (1).jpg" alt=""></div>
+                    <div class="box"><img src="./asset/beach.jpg" alt=""></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="container" id="form">
+            <h2 class="text-center mt-3">Contact Form</h2>
+            <div class="formContainer mt-4">
+                <div class="formImg">
+                    <img src="./asset/266.jpg" alt="">
+                </div>
+                <div class="formData">
+                    <form action="">
+                        <div class="m-4">
+                            <label for="name"> Name :</label>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name" class="form-control">
+                        </div>
+                        <div class="m-4">
+                            <label for="Email ">Email :</label>
+                            <input type="email " id="email " name="email " placeholder="Enter Your Email " class="form-control ">
+                        </div>
+                        <div class="m-4">
+                            <label for="Phone ">Phone :</label>
+                            <input type="tel " id="phone " name="phone " placeholder="Enter Your Phone " class="form-control ">
+                        </div>
+                        <div class="m-4">
+                            <label for="gender">Gender :</label>
+                            <input type="radio" value="male"> Male
+                            <input type="radio" value="female"> Female
+                            <input type="radio" value="other"> Other
+                        </div>
+                        <div class="m-4">
+                            <label for="select">Select Course :</label>
+                            <select name="course" id="course" class="form-control">
+                                <option value="EEE">EEE</option>
+                                <option value="CSE">CSE</option>
+                                <option value="MECH">MECH</option>
+                                <option value="CIVIL">CIVIL</option>
+                            </select>
+                        </div>
+                        <input type="button" class="btn btn-primary ms-4 mt-2" value="submit" name="submit">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer page  -->
+    <footer class="container-fluid " id="footer">
+        <div class="container ">
+            <h2 class="text-center mt-5 " id="footer ">FOOTER</h2>
+            <div class="footerMain mt-5 ">
+
+                <div class="section section1 ">
+                    <h4 class="text-light ">OUR MISSION</h4>
+                    <div>
+                        <p>Our mission is to deliver optimal solutions with quality and services at reasonable prices. For us customer satisfaction is given top place. We are very friendly in our dealings to the customers and it helps us retain existing
+                            clients and expand customer circle. We always try to improve the quality of our products by exploring innovative ideas and our service.</p>
+                    </div>
+
+                </div>
+                <div class="section section2 text-center ">
+                    <h4 class="text-light ">COMPANY</h4>
+                    <div>
+                        <p><a href=" ">About</a></p>
+                        <p><a href=" ">Contact</a></p>
+                        <p><a href=" ">Blog</a></p>
+                        <p><a href=" ">Home</a></p>
+                    </div>
+
+                </div>
+                <div class="section section3 ">
+                    <h4 class="text-light ">FROM THE BLOG</h4>
+                    <div>
+                        <p>Testing Working Robots at the Canadian Agency. Jan 15, 2022</p>
+                        <p>How to start your new business with limited budget? Jan 15, 2022</p>
+                        <p>Do we need more Javascript Framework? Jan 15, 2022</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
